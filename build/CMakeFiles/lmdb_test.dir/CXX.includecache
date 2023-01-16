@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../db_drivers/liblmdb/lmdb.h
+sys/types.h
+-
+inttypes.h
+-
+limits.h
+-
+
+/home/toretto/project/LMDB-TEST/lmdb.cpp
+lmdb.h
+-
+string
+-
+iostream
+-
+

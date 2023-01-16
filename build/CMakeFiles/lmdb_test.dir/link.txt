@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/lmdb_test.dir/lmdb.cpp.o  -o lmdb_test  db_drivers/liblmdb/liblmdb.a -lpthread 
